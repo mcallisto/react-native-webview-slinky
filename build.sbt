@@ -3,13 +3,13 @@ enablePlugins(ScalablyTypedConverterGenSourcePlugin)
 
 scalaVersion := "2.13.2"
 name := "react-native-webview-slinky"
-version := "0.1.0"
+version := "0.1.1"
 
 /* javascript / typescript deps */
 Compile / npmDependencies ++= Seq(
-  "@types/react" -> "16.9.34",
-  "@types/react-native" -> "^0.60.25",
-  "react-native-webview" -> "7.0.5"
+  "@types/react" -> "16.9.42",
+  "@types/react-native" -> "^0.62.4",
+  "react-native-webview" -> "10.8.2"
 )
 
 /* disabled because it somehow triggers many warnings */
@@ -17,8 +17,6 @@ scalaJSLinkerConfig ~= (_.withSourceMap(false))
 
 // because npm is slow
 useYarn := true
-
-stExperimentalEnableImplicitOps := true
 
 // say we want custom code for slinky
 stFlavour := Flavour.SlinkyNative
