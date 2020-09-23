@@ -7,7 +7,7 @@ It is distributed for Scala 2.13 and Scala.js 1
 ```
 resolvers += Resolver.bintrayRepo("mcallisto", "libs")
 libraryDependencies ++= Seq(
-    "default" %%% "react-native-webview-slinky" % "0.1.2" 
+    "default" %%% "react-native-webview-slinky" % "0.1.3" 
 ) 
 ```
 
@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
 See the following compilation output:
 
 ```
-[warn] Wrote react-native-webview (71 files)
+[warn] Wrote react-native-webview (72 files)
 [warn] Wrote minimized prop-types (3 files)
 [warn] Wrote minimized csstype (0 files)
 [warn] Wrote minimized react (29 files)

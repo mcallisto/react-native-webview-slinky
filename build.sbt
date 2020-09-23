@@ -3,13 +3,13 @@ enablePlugins(ScalablyTypedConverterGenSourcePlugin)
 
 scalaVersion := "2.13.3"
 name := "react-native-webview-slinky"
-version := "0.1.2"
+version := "0.1.3"
 
 /* javascript / typescript deps */
 Compile / npmDependencies ++= Seq(
   "@types/react" -> "~16.9.41",
   "@types/react-native" -> "~0.62.13",
-  "react-native-webview" -> "10.9.0"
+  "react-native-webview" -> "10.8.2"
 )
 
 /* disabled because it somehow triggers many warnings */
