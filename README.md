@@ -5,7 +5,7 @@
 It is distributed for Scala 2.13 and Scala.js 1
 
 ```
-libraryDependencies ++= Seq("vision.id" %%% "react-native-webview-slinky" % "0.1.4" ) 
+libraryDependencies ++= Seq("vision.id" %%% "react-native-webview-slinky" % "0.1.5" ) 
 ```
 
 ## Minimization
@@ -13,7 +13,7 @@ libraryDependencies ++= Seq("vision.id" %%% "react-native-webview-slinky" % "0.1
 See the following compilation output:
 
 ```
-[warn] Wrote react-native-webview (71 files)
+[warn] Wrote react-native-webview (72 files)
 [warn] Wrote minimized prop-types (3 files)
 [warn] Wrote minimized csstype (0 files)
 [warn] Wrote minimized react (31 files)
